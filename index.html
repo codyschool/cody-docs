@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cody School Dashboard</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app" class="h-screen flex flex-col">
+      <header role="banner" class="flex">
+        <div class="flex-shrink-0 px-4 py-3 bg-gray-700 lg:w-64 lg:bg-gray-800">
+          <button class="sm:flex sm:items-center sm:w-full">
+            <img
+              src="https://avatars2.githubusercontent.com/u/2674850?s=400&v=4"
+              alt=""
+              class="w-8 h-8 rounded-full object-cover"
+            />
+            <span class="ml-4 mr-2 text-sm font-medium text-white"
+              >Dang Thanh</span
+            >
+          </button>
+        </div>
+        <div
+          class="flex flex-1 items-center justify-between pl-2 pr-6 bg-gray-700"
+        >
+          <div class="ml-auto flex items-center">
+            <button class="ml-4 text-gray-400 hover:text-gray-200">
+              <svg viewBox="0 0 24 24" class="h-5 w-5 fill-current">
+                <path d="M12 18a1 1 0 100-2 1 1 0 000 2z"></path>
+                <path
+                  d="M12 4a8 8 0 100 16 8 8 0 000-16zM2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10S2 17.523 2 12z"
+                ></path>
+                <path
+                  d="M12 8c-1.472 0-2.528.706-2.868 1.426a1 1 0 01-1.809-.852C8.082 6.964 9.99 6 12 6c1.3 0 2.515.394 3.428 1.079C16.343 7.764 17 8.786 17 10c0 2.07-1.834 3.508-3.817 3.889a.31.31 0 00-.162.083A.107.107 0 0013 14a1 1 0 01-2 0c0-1.142.909-1.904 1.805-2.075C14.279 11.642 15 10.729 15 10c0-.443-.237-.92-.771-1.321C13.694 8.278 12.909 8 12 8z"
+                ></path>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </header>
+      <main role="main" class="flex flex-1 overflow-hidden">
+        <div class="w-64">
+          <nav>
+            <div class="mt-8 px-6">
+              <a
+                href="#"
+                class="-mx-3 px-3 py-2 flex items-center justify-between text-sm font-medium bg-gray-200 rounded-lg"
+                >Dashboard</a
+              >
+              <a
+                href="#"
+                class="mt-2 -mx-3 px-3 py-2 flex items-center justify-between text-sm font-medium hover:bg-gray-200 rounded-lg"
+                >Users</a
+              >
+            </div>
+          </nav>
+        </div>
+        <div class="flex flex-1 bg-gray-200">
+          <div class="flex flex-1 flex-col">
+            <h1>Dashboard</h1>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
