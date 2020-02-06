@@ -1,3 +1,3 @@
 # Cody School Dashboard
 
-> Cody School Dashboard using TailwindCSS
+> Cody School Dashboard using TailwindCSS and TypeScript
